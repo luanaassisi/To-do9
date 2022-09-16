@@ -6,18 +6,12 @@ function Header() {
 
     return (
         <header className="main">
-            <p>uma seleção de produtos</p>
-            <h2>especial para você</h2> <br />
-            <h4>Todos os produtos desta lista foram selecionados a partir da sua navegação. Aproveite!</h4>
-           
+            <h2>Veja todos os produtos</h2>
                 <div className='menu'>
                     <nav>
                         <ul className='organiza'>
                             <li>
                                 <button>Conheça a Linx</button>
-                            </li>
-                            <li>
-                                <button>Ajude o algoritmo</button>
                             </li>
                             <li>
                                 <button>Seus produtos</button>

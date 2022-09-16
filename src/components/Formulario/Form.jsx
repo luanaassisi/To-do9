@@ -21,8 +21,7 @@ function Form() {
     return <div className='testa'>
                 <form onSubmit={validaInput}>
                     <div className='textT'>
-                        <h3 className='subtitulo'>Ajude o algoritmo a ser mais certeiro</h3>
-                        <p className='loremIp'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque ultricies tellus nec mi porta convallis sollicitudin eu urna. Mauris rhoncus erat sed interdum dignissim. Suspendisse semper pretium consectetur. Praesent bibendum arcu risus, sit amet iaculis ex tempus quis. Cras et erat ut tellus vulputate tincidunt. Aenean lacinia euismod augue vel egestas. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Vestibulum vel urna tortor. Vivamus et arcu non felis tristique eleifend.</p>
+                        <p className='loremIp'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam perspiciatis vero porro odit debitis! Eaque quisquam porro eius dolore impedit, quas labore minima natus necessitatibus, nam eos, minus odit iusto.</p>
                         <p className='morbi'> Morbi eu condimentum urna. Curabitur eu magna eget turpis condimentum ultrices. Suspendisse quis lorem ultricies, pulvinar purus sed, egestas erat. Etiam ultricies a ante vehicula pharetra. Quisque ut neque mattis, consequat velit ut, ultrices orci. Nulla varius elementum erat vel pharetra. Aenean sit amet nisi diam. Morbi viverra, magna ac luctus commodo, odio ante suscipit libero, at mattis augue est vel metus.</p>
                         </div>
                         <div className='items-form'>
@@ -34,11 +33,6 @@ function Form() {
                         <label htmlFor='cpf'>CPF:</label>
                         <input required onChange={(event) => setCpf(event.target.value)} type="text" />
                         <div className="form-check">
-                            <input type="radio" name="radio" />
-                            <label htmlFor="radio">Masculino</label>
-                            <input type="radio" name="radio" />
-                            <label htmlFor="radio">Feminino</label>
-                        
                     </div>
                     
                         <button className='botao'>Enviar</button>
